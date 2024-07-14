@@ -12,7 +12,6 @@ const Form = styled.form`
     background-color: #f9f9f9;
     max-height: ${props => props.expanded ? '1000px' : '0'};
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out, margin-top 0.3s ease-in-out;
 
     input, textarea {
         padding: 0.5rem;
